@@ -21,12 +21,12 @@
 -------------
 
     ├── lab report(zh-cn)/    
-    │   ├── imgs/    插图目录 &dagger
+    │   ├── imgs/    插图目录 †
     |       └── logo.pdf    成电校徽
-    │   ├── lab_report(zh_cn).tex    实验报告中文模板 &dagger
+    │   ├── lab_report(zh_cn).tex    实验报告中文模板 †
     │   └── lab_report(zh_cn).pdf    编译出来的结果
 
-其中 &dagger 表明需要用户修改的文件。
+其中 † 表明需要用户修改的文件。
 
 ## 依赖环境
 -------------
@@ -46,7 +46,7 @@ Mac和Linux环境有待验证。
         
     或者在页面右边点击：**Clone or download -> Download Zip**
 
-2.  按照自己的需要修改 **文件说明** 里面标注了 &dagger 号的部分。具体来说：
+2.  按照自己的需要修改 **文件说明** 里面标注了 † 号的部分。具体来说：
     > 1. 将实验报告的插图放入imgs/目录下
     > 2. 修改lab_report(zh_cn).tex文件中的相应文字内容，其中插入代码、表格、图片、伪代码以及使用字体的示例在附录中已给出。
 
@@ -65,5 +65,4 @@ Mac和Linux环境有待验证。
     
 > 关于我，欢迎关注  
   Github：[Shufan Zhang](https://github.com/heywrcoding)
-  
   如果喜欢此模板，希望你可以点个star哟！
