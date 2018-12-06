@@ -14,7 +14,7 @@
 * 此模板为撰写电子科技大学信软学院本科实验报告的LaTeX模板。此模板的编写旨在免除电子科技大学信软学院学生在撰写实验报告时需要调整文档格式的烦恼；希望达成在节省了撰写实验报告时间的同时，写出美观、格式统一的实验报告的目的；另外，也希望此实验报告模板可以成为向信软学院莘莘学子推广使用LaTeX的一个契机。
 * 此模板使用简单，注释明确。缺乏LaTeX使用经验的同学可以参考[LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)和刘海洋老师的[LaTeX入门](https://bbs.pku.edu.cn/attach/e7/f2/e7f2bb698b9c3672/tex_intro_talk.pdf)，相信你很快会爱上LaTeX的！（ 注意：此模板目标语言为中文，请第一次使用LaTeX的同学们下载使用[CTeX](http://www.ctex.org/HomePage)。）
 * 此模板的编写参考了[LaTeX-Template-Cn](https://github.com/DeathKing/LaTeX-Template-Cn)、[ucasthesis](https://github.com/mohuangrui/ucasthesis)、[UESTCthesis](https://github.com/shifujun/UESTCthesis)等中文模板，在此向这些模板的作者致谢！
-* 由于本人水平有限，欢迎各位老师、同学指正，也欢迎诸位同仁给此repo提requests！
+* 由于本人水平有限，欢迎各位老师、同学指正，也欢迎诸位同仁给此repo提交pr和issue！
 
 
 ## 文件说明
