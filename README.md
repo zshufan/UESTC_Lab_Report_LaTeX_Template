@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/version-v0.1-brightgreen.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 
-<h1 align="center">LaTeX Lab Report Template for UESTC undergraduates</h1>
+<h1 align="center">LaTeX Lab Report Template for UESTC Undergraduates</h1>
 
 
 ---
