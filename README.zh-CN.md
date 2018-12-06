@@ -1,67 +1,69 @@
-[English](./README.md) | ¼òÌåÖĞÎÄ
+[English](./README.md) | ç®€ä½“ä¸­æ–‡
+
 [![AUR license](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/version-v0.1-brightgreen.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 
-<h1 align="center">µç×Ó¿Æ¼¼´óÑ§ĞÅÈíÑ§ÔºÊµÑé±¨¸æLaTeXÄ£°å</h1>
+<h1 align="center">ç”µå­ç§‘æŠ€å¤§å­¦ä¿¡è½¯å­¦é™¢å®éªŒæŠ¥å‘ŠLaTeXæ¨¡æ¿</h1>
 
 
 ---
-## Ä£°å¼ò½é
+## æ¨¡æ¿ç®€ä»‹
 -------------
 
-* ´ËÄ£°åÎª×«Ğ´µç×Ó¿Æ¼¼´óÑ§ĞÅÈíÑ§Ôº±¾¿ÆÊµÑé±¨¸æµÄLaTeXÄ£°å¡£´ËÄ£°åµÄ±àĞ´Ö¼ÔÚÃâ³ıµç×Ó¿Æ¼¼´óÑ§ĞÅÈíÑ§ÔºÑ§ÉúÔÚ×«Ğ´ÊµÑé±¨¸æÊ±ĞèÒªµ÷ÕûÎÄµµ¸ñÊ½µÄ·³ÄÕ£»Ï£Íû´ï³ÉÔÚ½ÚÊ¡ÁË×«Ğ´ÊµÑé±¨¸æÊ±¼äµÄÍ¬Ê±£¬Ğ´³öÃÀ¹Û¡¢¸ñÊ½Í³Ò»µÄÊµÑé±¨¸æµÄÄ¿µÄ£»ÁíÍâ£¬Ò²Ï£Íû´ËÊµÑé±¨¸æÄ£°å¿ÉÒÔ³ÉÎªÏòĞÅÈíÑ§Ôºİ·İ·Ñ§×ÓÍÆ¹ãÊ¹ÓÃLaTeXµÄÒ»¸öÆõ»ú¡£
-* ´ËÄ£°åÊ¹ÓÃ¼òµ¥£¬×¢ÊÍÃ÷È·¡£È±·¦LaTeXÊ¹ÓÃ¾­ÑéµÄÍ¬Ñ§¿ÉÒÔ²Î¿¼[LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)ºÍÁõº£ÑóÀÏÊ¦µÄ[LaTeXÈëÃÅ](https://bbs.pku.edu.cn/attach/e7/f2/e7f2bb698b9c3672/tex_intro_talk.pdf)£¬ÏàĞÅÄãºÜ¿ì»á°®ÉÏLaTeXµÄ£¡£¨ ×¢Òâ£º´ËÄ£°åÄ¿±êÓïÑÔÎªÖĞÎÄ£¬ÇëµÚÒ»´ÎÊ¹ÓÃLaTeXµÄÍ¬Ñ§ÃÇÏÂÔØÊ¹ÓÃ[CTeX](http://www.ctex.org/HomePage)¡££©
-* ´ËÄ£°åµÄ±àĞ´²Î¿¼ÁË[LaTeX-Template-Cn](https://github.com/DeathKing/LaTeX-Template-Cn)¡¢[ucasthesis](https://github.com/mohuangrui/ucasthesis)¡¢[UESTCthesis](https://github.com/shifujun/UESTCthesis)µÈÖĞÎÄÄ£°å£¬ÔÚ´ËÏòÕâĞ©Ä£°åµÄ×÷ÕßÖÂĞ»£¡
-* ÓÉÓÚ±¾ÈËË®Æ½ÓĞÏŞ£¬»¶Ó­¸÷Î»ÀÏÊ¦¡¢Í¬Ñ§Ö¸Õı£¬Ò²»¶Ó­ÖîÎ»Í¬ÈÊ¸ø´ËrepoÌárequests£¡
+* æ­¤æ¨¡æ¿ä¸ºæ’°å†™ç”µå­ç§‘æŠ€å¤§å­¦ä¿¡è½¯å­¦é™¢æœ¬ç§‘å®éªŒæŠ¥å‘Šçš„LaTeXæ¨¡æ¿ã€‚æ­¤æ¨¡æ¿çš„ç¼–å†™æ—¨åœ¨å…é™¤ç”µå­ç§‘æŠ€å¤§å­¦ä¿¡è½¯å­¦é™¢å­¦ç”Ÿåœ¨æ’°å†™å®éªŒæŠ¥å‘Šæ—¶éœ€è¦è°ƒæ•´æ–‡æ¡£æ ¼å¼çš„çƒ¦æ¼ï¼›å¸Œæœ›è¾¾æˆåœ¨èŠ‚çœäº†æ’°å†™å®éªŒæŠ¥å‘Šæ—¶é—´çš„åŒæ—¶ï¼Œå†™å‡ºç¾è§‚ã€æ ¼å¼ç»Ÿä¸€çš„å®éªŒæŠ¥å‘Šçš„ç›®çš„ï¼›å¦å¤–ï¼Œä¹Ÿå¸Œæœ›æ­¤å®éªŒæŠ¥å‘Šæ¨¡æ¿å¯ä»¥æˆä¸ºå‘ä¿¡è½¯å­¦é™¢è˜è˜å­¦å­æ¨å¹¿ä½¿ç”¨LaTeXçš„ä¸€ä¸ªå¥‘æœºã€‚
+* æ­¤æ¨¡æ¿ä½¿ç”¨ç®€å•ï¼Œæ³¨é‡Šæ˜ç¡®ã€‚ç¼ºä¹LaTeXä½¿ç”¨ç»éªŒçš„åŒå­¦å¯ä»¥å‚è€ƒ[LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX)å’Œåˆ˜æµ·æ´‹è€å¸ˆçš„[LaTeXå…¥é—¨](https://bbs.pku.edu.cn/attach/e7/f2/e7f2bb698b9c3672/tex_intro_talk.pdf)ï¼Œç›¸ä¿¡ä½ å¾ˆå¿«ä¼šçˆ±ä¸ŠLaTeXçš„ï¼ï¼ˆ æ³¨æ„ï¼šæ­¤æ¨¡æ¿ç›®æ ‡è¯­è¨€ä¸ºä¸­æ–‡ï¼Œè¯·ç¬¬ä¸€æ¬¡ä½¿ç”¨LaTeXçš„åŒå­¦ä»¬ä¸‹è½½ä½¿ç”¨[CTeX](http://www.ctex.org/HomePage)ã€‚ï¼‰
+* æ­¤æ¨¡æ¿çš„ç¼–å†™å‚è€ƒäº†[LaTeX-Template-Cn](https://github.com/DeathKing/LaTeX-Template-Cn)ã€[ucasthesis](https://github.com/mohuangrui/ucasthesis)ã€[UESTCthesis](https://github.com/shifujun/UESTCthesis)ç­‰ä¸­æ–‡æ¨¡æ¿ï¼Œåœ¨æ­¤å‘è¿™äº›æ¨¡æ¿çš„ä½œè€…è‡´è°¢ï¼
+* ç”±äºæœ¬äººæ°´å¹³æœ‰é™ï¼Œæ¬¢è¿å„ä½è€å¸ˆã€åŒå­¦æŒ‡æ­£ï¼Œä¹Ÿæ¬¢è¿è¯¸ä½åŒä»ç»™æ­¤repoærequestsï¼
 
 
-## ÎÄ¼şËµÃ÷
+## æ–‡ä»¶è¯´æ˜
 -------------
 
-    ©À©¤©¤ lab report(zh-cn)/    
-    ©¦   ©À©¤©¤ imgs/    ²åÍ¼Ä¿Â¼ ?
-    |       ©¸©¤©¤ logo.pdf    ³ÉµçĞ£»Õ
-    ©¦   ©À©¤©¤ lab_report(zh_cn).tex    ÊµÑé±¨¸æÖĞÎÄÄ£°å ?
-    ©¦   ©¸©¤©¤ lab_report(zh_cn).pdf    ±àÒë³öÀ´µÄ½á¹û
+    â”œâ”€â”€ lab report(zh-cn)/    
+    â”‚   â”œâ”€â”€ imgs/    æ’å›¾ç›®å½• &dagger
+    |       â””â”€â”€ logo.pdf    æˆç”µæ ¡å¾½
+    â”‚   â”œâ”€â”€ lab_report(zh_cn).tex    å®éªŒæŠ¥å‘Šä¸­æ–‡æ¨¡æ¿ &dagger
+    â”‚   â””â”€â”€ lab_report(zh_cn).pdf    ç¼–è¯‘å‡ºæ¥çš„ç»“æœ
 
-ÆäÖĞ ? ±íÃ÷ĞèÒªÓÃ»§ĞŞ¸ÄµÄÎÄ¼ş¡£
+å…¶ä¸­ &dagger è¡¨æ˜éœ€è¦ç”¨æˆ·ä¿®æ”¹çš„æ–‡ä»¶ã€‚
 
-## ÒÀÀµ»·¾³
+## ä¾èµ–ç¯å¢ƒ
 -------------
 
-ÔÚ64Î»win10£¬Tex Live 2017»·¾³ÏÂ±àÒë³É¹¦¡£
+åœ¨64ä½win10ï¼ŒTex Live 2017ç¯å¢ƒä¸‹ç¼–è¯‘æˆåŠŸã€‚
 
 > XeTeX 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX)  
 
-MacºÍLinux»·¾³ÓĞ´ıÑéÖ¤¡£
+Macå’ŒLinuxç¯å¢ƒæœ‰å¾…éªŒè¯ã€‚
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 -------------
 
-1.  ¿ËÂ¡»òÏÂÔØ´Ë repo µ½±¾µØ¡£¿ÉÒÔÊ¹ÓÃÃüÁî
+1.  å…‹éš†æˆ–ä¸‹è½½æ­¤ repo åˆ°æœ¬åœ°ã€‚å¯ä»¥ä½¿ç”¨å‘½ä»¤
 
         git clone https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template.git
         
-    »òÕßÔÚÒ³ÃæÓÒ±ßµã»÷£º**Clone or download -> Download Zip**
+    æˆ–è€…åœ¨é¡µé¢å³è¾¹ç‚¹å‡»ï¼š**Clone or download -> Download Zip**
 
-2.  °´ÕÕ×Ô¼ºµÄĞèÒªĞŞ¸Ä **ÎÄ¼şËµÃ÷** ÀïÃæ±ê×¢ÁË ? ºÅµÄ²¿·Ö¡£¾ßÌåÀ´Ëµ£º
-    > 1. ½«ÊµÑé±¨¸æµÄ²åÍ¼·ÅÈëimgs/Ä¿Â¼ÏÂ
-    > 2. ĞŞ¸Älab_report(zh_cn).texÎÄ¼şÖĞµÄÏàÓ¦ÎÄ×ÖÄÚÈİ£¬ÆäÖĞ²åÈë´úÂë¡¢±í¸ñ¡¢Í¼Æ¬¡¢Î±´úÂëÒÔ¼°Ê¹ÓÃ×ÖÌåµÄÊ¾ÀıÔÚ¸½Â¼ÖĞÒÑ¸ø³ö¡£
+2.  æŒ‰ç…§è‡ªå·±çš„éœ€è¦ä¿®æ”¹ **æ–‡ä»¶è¯´æ˜** é‡Œé¢æ ‡æ³¨äº† &dagger å·çš„éƒ¨åˆ†ã€‚å…·ä½“æ¥è¯´ï¼š
+    > 1. å°†å®éªŒæŠ¥å‘Šçš„æ’å›¾æ”¾å…¥imgs/ç›®å½•ä¸‹
+    > 2. ä¿®æ”¹lab_report(zh_cn).texæ–‡ä»¶ä¸­çš„ç›¸åº”æ–‡å­—å†…å®¹ï¼Œå…¶ä¸­æ’å…¥ä»£ç ã€è¡¨æ ¼ã€å›¾ç‰‡ã€ä¼ªä»£ç ä»¥åŠä½¿ç”¨å­—ä½“çš„ç¤ºä¾‹åœ¨é™„å½•ä¸­å·²ç»™å‡ºã€‚
 
-3.  Ê¹ÓÃÒÔÏÂÖ¸Áî±àÒëtexÎÄ¼ş
+3.  ä½¿ç”¨ä»¥ä¸‹æŒ‡ä»¤ç¼–è¯‘texæ–‡ä»¶
 
         xelatex lab_report(zh_cn).tex
     
-    »òÕßÊ¹ÓÃLaTeXÎÄ¼ş±à¼­Æ÷£¨ÈçWindowsÆ½Ì¨ÏÂÌá¹©µÄWinEdt£©Ìá¹©µÄÍ¼ĞÎ½çÃæÖĞµÄXeLaTeX°´Å¥±àÒë¡£
+    æˆ–è€…ä½¿ç”¨LaTeXæ–‡ä»¶ç¼–è¾‘å™¨ï¼ˆå¦‚Windowså¹³å°ä¸‹æä¾›çš„WinEdtï¼‰æä¾›çš„å›¾å½¢ç•Œé¢ä¸­çš„XeLaTeXæŒ‰é’®ç¼–è¯‘ã€‚
     
-    Õı³£±àÒëµÄ½á¹ûÎªlab_report(zh_cn).pdf£¬¼ì²éÆäÊÇ·ñÕıÈ·¡£
+    æ­£å¸¸ç¼–è¯‘çš„ç»“æœä¸ºlab_report(zh_cn).pdfï¼Œæ£€æŸ¥å…¶æ˜¯å¦æ­£ç¡®ã€‚
     
-    ÔÚ´ËrepoÖĞÄã¿ÉÒÔ¿´µ½ÔÚÎÒµÄ»úÆ÷ÉÏ±àÒëµÃµ½µÄÊ¾ÀıÊµÑé±¨¸æµÄ[½á¹û](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)¡£
+    åœ¨æ­¤repoä¸­ä½ å¯ä»¥çœ‹åˆ°åœ¨æˆ‘çš„æœºå™¨ä¸Šç¼–è¯‘å¾—åˆ°çš„ç¤ºä¾‹å®éªŒæŠ¥å‘Šçš„[ç»“æœ](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)ã€‚
 
 
 
     
-> ¹ØÓÚÎÒ£¬»¶Ó­¹Ø×¢  
-  Github£º[Shufan Zhang](https://github.com/heywrcoding)
-  Èç¹ûÏ²»¶´ËÄ£°å£¬Ï£ÍûÄã¿ÉÒÔµã¸östarÓ´£¡
+> å…³äºæˆ‘ï¼Œæ¬¢è¿å…³æ³¨  
+  Githubï¼š[Shufan Zhang](https://github.com/heywrcoding)
+  
+  å¦‚æœå–œæ¬¢æ­¤æ¨¡æ¿ï¼Œå¸Œæœ›ä½ å¯ä»¥ç‚¹ä¸ªstarå“Ÿï¼
