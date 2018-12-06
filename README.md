@@ -63,7 +63,7 @@ Mac和Linux环境有待验证。
 
 
     
-> About me, subscribe my
+> About me, subscribe my  
   Github：[Shufan Zhang](https://github.com/heywrcoding)  
   Mail：[FoxMail](mailto:shufan_zhang@foxmail.com)  
   I will appreciate your approval and stars!
