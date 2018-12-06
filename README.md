@@ -58,8 +58,7 @@ Further experiments on Mac and Linux are expected.
     
     The correct result of compilation is lab_report(zh_cn).pdf, you can check whether it is under expectation.
     
-    You can see the [result](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)。
- of example lab report compiled on my machine.
+    You can see the [result](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf) of example lab report compiled on my machine.
 
 
     
