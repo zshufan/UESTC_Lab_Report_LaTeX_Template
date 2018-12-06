@@ -21,49 +21,49 @@
 -------------
 
     ├── lab report(zh-cn)/    
-    │   ├── imgs/    picture directory 
+    │   ├── imgs/    picture directory †
     |       └── logo.pdf    school badge
-    │   ├── lab_report(zh_cn).tex    template 
+    │   ├── lab_report(zh_cn).tex    template †
     │   └── lab_report(zh_cn).pdf    results
 
-其中 ? 表明需要用户修改的文件。
+Dagger † represents file need to be customized.
 
-## 依赖环境
+## Dependencies
 -------------
 
-在64位win10，Tex Live 2017环境下编译成功。
+Successfully compiled under 64 bit win10，Tex Live 2017 environment.
 
 > XeTeX 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX)  
 
-Mac和Linux环境有待验证。
+Further experiments on Mac and Linux are expected.
 
-## 使用方法
+## Usage
 -------------
 
-1.  克隆或下载此 repo 到本地。可以使用命令
+1.  Clone or download this repository to local environment. This command is suggested:
 
         git clone https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template.git
         
-    或者在页面右边点击：**Clone or download -> Download Zip**
+    Or click: **Clone or download -> Download Zip**
 
-2.  按照自己的需要修改 **文件说明** 里面标注了 ? 号的部分。具体来说：
-    > 1. 将实验报告的插图放入imgs/目录下
-    > 2. 修改lab_report(zh_cn).tex文件中的相应文字内容，其中插入代码、表格、图片、伪代码以及使用字体的示例在附录中已给出。
+2.  Modified files with dagger † in **Repository Structure** as your own thought. To be detailed:
+    > 1. Put pictures used in the lab report under imgs/ directory.
+    > 2. Modified corresponding text content in lab_report(zh_cn).tex. Examples of usage of inserting codes, tables, pictures, pseudocodes are showed in Appendix.
 
-3.  使用以下指令编译tex文件
+3.  Compile .tex file with the following command:
 
         xelatex lab_report(zh_cn).tex
     
-    或者使用LaTeX文件编辑器（如Windows平台下提供的WinEdt）提供的图形界面中的XeLaTeX按钮编译。
+    Or use graphic button "XeLaTeX" provided by LaTeX editor such as WinEdt to execute compilation.
     
-    正常编译的结果为lab_report(zh_cn).pdf，检查其是否正确。
+    The correct result of compilation is lab_report(zh_cn).pdf, you can check whether it is under expectation.
     
-    在此repo中你可以看到在我的机器上编译得到的示例实验报告的[结果](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)。
+    You can see the [result](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)。
+ of example lab report compiled on my machine.
 
 
-
     
-> About me, subscribe my  
+> About me, subscribe my
   Github：[Shufan Zhang](https://github.com/heywrcoding)  
   Mail：[FoxMail](mailto:shufan_zhang@foxmail.com)  
   I will appreciate your approval and stars!
