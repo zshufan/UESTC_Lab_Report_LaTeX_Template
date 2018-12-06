@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-[![AUR license](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
+[![AUR license](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/version-v0.1-brightgreen.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 
@@ -65,4 +65,5 @@ Mac和Linux环境有待验证。
     
 > 关于我，欢迎关注  
   Github：[Shufan Zhang](https://github.com/heywrcoding)
+  我的邮箱：[FoxMail](mailto:shufan_zhang@foxmail.com)
   如果喜欢此模板，希望你可以点个star哟！
