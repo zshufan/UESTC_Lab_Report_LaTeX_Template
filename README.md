@@ -1,4 +1,4 @@
-[English](./README.md) | 简体中文
+English | [简体中文](./README.zh-CN.md)
 
 [![AUR license](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
