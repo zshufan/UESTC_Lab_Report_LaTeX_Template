@@ -1,3 +1,4 @@
+English | [简体中文](./README.zh-CN.md)
 # UESTC_Lab_Report_LaTeX_Template
 A LaTeX Template for UESTC Lab Report
 
