@@ -60,8 +60,13 @@ Mac和Linux环境有待验证。
     
     在此repo中你可以看到在我的机器上编译得到的示例实验报告的[结果](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf)。
 
+## 模板预览
+-------------
 
-
+![cover](https://user-images.githubusercontent.com/28619915/49622954-a6ccfd80-fa06-11e8-9753-6181af3ac720.png)
+![p1](https://user-images.githubusercontent.com/28619915/49622955-a7fe2a80-fa06-11e8-9d90-8959be3100a3.png)
+![p2](https://user-images.githubusercontent.com/28619915/49622957-a92f5780-fa06-11e8-95a0-1494d893f052.png)
+![p3](https://user-images.githubusercontent.com/28619915/49622961-aa608480-fa06-11e8-961e-382ddb7354d7.png)
     
 > 关于我，欢迎关注  
 > Github：[Shufan Zhang](https://github.com/heywrcoding)  
