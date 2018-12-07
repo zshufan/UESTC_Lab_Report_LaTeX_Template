@@ -1,6 +1,6 @@
 English | [简体中文](./README.zh-CN.md)
 
-[![AUR license](https://img.shields.io/dub/l/vibe-d.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
+[![AUR license](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/version-v0.1-brightgreen.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 
@@ -60,6 +60,12 @@ Further experiments on Mac and Linux are expected.
     
     You can see the [result](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template/blob/master/lab%20report(zh-cn)/lab_report(zh_cn).pdf) of example lab report compiled on my machine.
 
+## Preview
+-------------
+<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/article/2018/1206/8b480bc6d043f57.png)
+<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/08fc81f87455bec.png)
+<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/637eee3b58b5716.png)
+<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/02c135a2100b4c4.png)
 
     
 > About me, subscribe my  
