@@ -3,11 +3,11 @@
 
 \usepackage{indentfirst} %缩进
 \usepackage{xeCJK}    %使用系统字体
+\usepackage{bm}       %粗体
 \usepackage{fancyhdr} %自定义页眉页脚
 \pagestyle{empty}                   %不设置页眉页脚
 \usepackage{amsmath, amsthm, amssymb, amsfonts} %数学公式
-\usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
-%\usepackage[tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in]{geometry}.
+\usepackage[a4paper,left=3cm,right=3cm,top=3.5cm,bottom=3.5cm]{geometry}
 \usepackage{booktabs} %插入表格
 \usepackage[section]{placeins} %避免浮动
 \usepackage{listings} %插入代码
@@ -31,15 +31,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setlength{\parindent}{22pt} %重新定义缩进长度
 \setlength{\baselineskip}{20pt}  %定义行间距
-%\renewcommand{\baselinestretch}{1.1} %定义行间距
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 列表设置
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setenumerate{fullwidth,itemindent=\parindent,listparindent=\parindent,itemsep=0ex,partopsep=0pt,parsep=0ex}
-\setenumerate[2]{label=\alph*),leftmargin=1.5em}  %二级item设置
-\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}
-\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}
+\linespread{1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 图的标题行间距设置
@@ -62,9 +54,11 @@
 \setCJKfamilyfont{song}{SimSun}                             %宋体 song
 \newcommand{\song}{\CJKfamily{song}}
 \setCJKfamilyfont{fs}{FangSong}                      %仿宋  fs
-\newcommand{\fs}{\CJKfamily{fs}}
-\setCJKfamilyfont{ktgb}{KaiTi}                      %楷体2312 ktgb
-\newcommand{\ktgb}{\CJKfamily{ktgb}}
+\newcommand{\fs}{\CJKfamily{fs}} 
+\let\kaishu\relax                                    %重定义楷体，打开假粗体
+\newCJKfontfamily\kaishu{KaiTi}[AutoFakeBold] 
+%\setCJKfamilyfont{ktgb}{KaiTi_GB2312}                      %楷体 GB2312
+%\newcommand{\ktgb}{\CJKfamily{ktgb}}
 \setCJKfamilyfont{yh}{Microsoft YaHei}                    %微软雅黑 yh
 \newcommand{\yh}{\CJKfamily{yh}}
 \setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
@@ -72,19 +66,22 @@
 \setCJKfamilyfont{hwxk}{STXingkai}                                %华文行楷  hwxk
 \newcommand{\hwxk}{\CJKfamily{hwxk}}
 %------------------------------设置字体大小------------------------%
-\newcommand{\shiyanbaogao}{\fontsize{36pt}{\baselineskip}\selectfont}
-\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}     %初号
-\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont} %小初号
-\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}      %一号
-\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}      %二号
-\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  %小二号
-\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  %三号
-\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}       %四号
-\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  %小四号
-\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号
-\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}   %小五号
-\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  %六号
-\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    %七号
+\newcommand{\chuhao}{\fontsize{42pt}{63pt}\selectfont}     %初号， 1.5倍行距
+\newcommand{\xiaochuhao}{\fontsize{36pt}{36pt}\selectfont} %小初号，单倍行距
+\newcommand{\yihao}{\fontsize{26pt}{39pt}\selectfont}        % 一号, 1.5 倍行距
+\newcommand{\erhao}{\fontsize{22pt}{33pt}\selectfont}        % 二号, 1.5倍行距
+\newcommand{\xiaoerhao}{\fontsize{18pt}{18pt}\selectfont}       % 小二, 单倍行距
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}       % 三号, 1.5倍行距
+\newcommand{\xiaosanhao}{\fontsize{15pt}{22pt}\selectfont}      % 小三, 1.5倍行距
+\newcommand{\sihao}{\fontsize{14pt}{21pt}\selectfont}        % 四号, 1.5 倍行距
+\newcommand{\banxiaosi}{\fontsize{13pt}{20pt}\selectfont}  % 半小四, 20pt行距
+\newcommand{\xiaosihao}{\fontsize{12pt}{20pt}\selectfont}       % 小四, 20pt行距
+\newcommand{\dawuhao}{\fontsize{11pt}{11pt}\selectfont}      % 大五号, 单倍行距
+\newcommand{\wuhao}{\fontsize{10.5pt}{10.5pt}\selectfont}   % 五号, 单倍行距
+\newcommand{\xiaowuhao}{\fontsize{9pt}{9pt}\selectfont}   %小五号，单倍行距
+%------------------------------重定义normalize------------------------%
+\renewcommand{\normalsize}{\fontsize{12pt}{20pt}\selectfont}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 图题字体大小相同
@@ -96,14 +93,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 重定义枚举编号为 1),2)...
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\renewcommand{\labelenumi}{\theenumi)}
+\renewcommand{\labelenumi}{\theenumi）}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 重定义section标题
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\CTEXsetup[format={\sihao\CJKfamily{zhhei}\zihao{4}},number={\chinese{section}},name={,、~},aftername={},indent={0pt},beforeskip={6pt},afterskip={6pt},format+={\flushleft}]{section}
-\CTEXsetup[format={\Large\bfseries\CJKfamily{zhkai}\zihao{5}},name={（,）},number={\chinese{subsection}},aftername={},indent={22pt},beforeskip={14pt},afterskip={2pt}]{subsection}
+\CTEXsetup[format={\CJKfamily{zhhei}\zihao{4}},number={\chinese{section}},name={,、~},aftername={},indent={0pt},beforeskip={6pt},afterskip={6pt},format+={\flushleft}]{section}
+\CTEXsetup[format={\Large\bfseries\CJKfamily{zhkai}\zihao{5}},name={（,）},number={\chinese{subsection}},aftername={},indent={22pt},beforeskip={6pt},afterskip={6pt}]{subsection}
 \CTEXsetup[number={\chinese{section}},name={附录, ~~ }]{appendix}
 
 
@@ -117,6 +114,15 @@
 \renewcommand{\algorithmicrequire}{\textbf{输入:}}
 \renewcommand{\algorithmicensure}{\textbf{输出:}}
 \newtheorem{define}{定义}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 列表设置
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlist[enumerate,1]{itemindent=22pt,listparindent=\parindent,itemsep=0mm,partopsep=.7mm,parsep=0ex,labelsep=1.5mm,topsep=0.7mm}
+\setlist[enumerate,2]{label=\alph*),leftmargin=1.5em}  %二级item设置
+%\setitemize{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}
+%\setdescription{itemindent=38pt,leftmargin=0pt,itemsep=-0.4ex,listparindent=26pt,partopsep=0pt,parsep=0.5ex,topsep=-0.25ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 代码设置
@@ -171,7 +177,7 @@
 \begin{titlepage}
 \center{\yihao{\hwxk{电子科技大学\underline{信息与软件工程}学院}}}
 \vspace{6cm}
-\center{\shiyanbaogao{\ktgb{实~验~报~告}}}
+\center{\xiaochuhao{\kaishu{\bfseries 实~验~报~告}}}
 \vspace{4cm}
 
 \begin{center}
@@ -195,7 +201,8 @@
 \clearpage
 
 \centerline{\\[10pt]\erhao{\fs{电 ~子 ~科~ 技~ 大~ 学}}}
-\centerline{\\[10pt]\yihao{\fs{实  ~~ 验  ~~ 报  ~~ 告}}}
+
+\centerline{\\[20pt]\yihao{\fs{实  ~~~~ 验  ~~~~ 报  ~~~~ 告}}}
 
 \leftline{\\[10pt]\sihao{\hei{\hspace{1.5em} 学生姓名：XXX \hfill 学号：XXXX \hfill 指导教师：XXX }}}
 
@@ -203,44 +210,46 @@
 
 \leftline{\\[10pt]\sihao{\hei{\hspace{1.5em} 实验时间：第X周周X（X-X节） \hfill }}}
 
+\setlength{\parskip}{0pt}  %定义段间距
 
-
-\setlength{\parskip}{6pt}  %定义段间距
+(括号内的文字是对报告项目的说明。请补充完整的内容,完成后删除括号内的文字。)
 
 \section{实验名称: ~X~X~X}
 \section{实验学时: ~4}
 \section{实验目的:}
 
-(这部分要提出预期目标, 需要详细说明)
+(这部分要提出预期目标, 需要详细说明)\\
 
 \section{实验原理:}
 
-(这部分需要详细填写实验原理。可以参考实验指导书和查阅相关的资料，可以有更能说明问题的图表。原则上字数不少于300字。)
+(这部分需要详细填写实验原理。可以参考实验指导书和查阅相关的资料，可以有更能说明问题的图表。原则上字数不少于300字。)\\
 
 \section{实验内容:}
 
-(这部分需要详细填写实验内容。可以参考实验指导书。需要分清楚的是哪些是属于原理的，哪些才是属于内容。原则上字数不少于200字。)
+(这部分需要详细填写实验内容。可以参考实验指导书。需要分清楚的是哪些是属于原理的，哪些才是属于内容。原则上字数不少于200字。)\\
 
 \section{实验器材（设备、元器件）:}
 
-(描述实验用到软硬件，例如设备、操作系统、用到的软件等等)
+(描述实验用到软硬件，例如设备、操作系统、用到的软件等等)\\
 
 \section{实验步骤:}
 
-(这部分需要详细填写实验步骤。可以参考实验指导书。原则上字数不少于200字。内容可写设计思路、设计过程，图文并茂为佳。)
+(这部分需要详细填写实验步骤。可以参考实验指导书。原则上字数不少于200字。内容可写设计思路、设计过程，图文并茂为佳。)\\
 
 \section{实验结果与分析（含重要数据结果分析或核心代码流程分析）:}
 
 (自行填写。每个实验项目的格式范例：
-\begin{itemize}
+\begin{enumerate}
   \item 关键流程分析
   \item 实验结果 \\ 文字描述或者截图（所作的图）。必须有截图，截图数量不少于2幅。
-  \item 结果分析 \\ 对每一个结果，必须有相应分析，如解释图表反映的内涵、缘由，是否达到预期目标，是否可改进等等。)
-\end{itemize}
+  \item 结果分析 \\ 对每一个结果，必须有相应分析，如解释图表反映的内涵、缘由，是否达到预期目标，是否可改进等等。) \\
+\end{enumerate}
+
+
 
 \section{总结及心得体会:}
 
-(自行填写。必须写点什么，不能写“无”)
+(自行填写。必须写点什么，不能写“无”)\\
 
 \section{对本实验过程及方法、手段的改进建议:}
 
