@@ -37,7 +37,7 @@ Successfully compiled under 64 bit win10，Tex Live 2017 environment.
 
 Further experiments on Mac and Linux are expected.
 
-## Usage
+## Quick Start
 -------------
 
 1.  Clone or download this repository to local environment. This command is suggested:
