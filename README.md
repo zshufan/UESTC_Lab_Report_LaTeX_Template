@@ -63,10 +63,10 @@ Further experiments on Mac and Linux are expected.
 ## Preview
 -------------
 
-<img src="https://user-images.githubusercontent.com/28619915/49622954-a6ccfd80-fa06-11e8-9753-6181af3ac720.png" width = 100% height = 100% div align=center />
-<img src="https://user-images.githubusercontent.com/28619915/49622955-a7fe2a80-fa06-11e8-9d90-8959be3100a3.png" width = 100% height = 100% div align=center />
-<img src="https://user-images.githubusercontent.com/28619915/49622957-a92f5780-fa06-11e8-95a0-1494d893f052.png" width = 100% height = 100% div align=center />
-<img src="https://user-images.githubusercontent.com/28619915/49622961-aa608480-fa06-11e8-961e-382ddb7354d7.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49652409-f2b28d80-fa6c-11e8-9f03-cdba9b350650.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49652410-f2b28d80-fa6c-11e8-977a-adce902a20c7.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49652411-f34b2400-fa6c-11e8-931f-873f248c7041.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49652412-f34b2400-fa6c-11e8-9b12-7feeac17286b.png" width = 100% height = 100% div align=center />
 
     
 > About me, subscribe my  
