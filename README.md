@@ -1,6 +1,6 @@
 English | [简体中文](./README.zh-CN.md)
 
-[![AUR license](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
+[![AUR license](https://img.shields.io/badge/license-LPPL--1.3c-blue.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/platform-win--64%20%7C%20ctex-lightgrey.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 [![AUR license](https://img.shields.io/badge/version-v0.1-brightgreen.svg)](https://github.com/heywrcoding/UESTC_Lab_Report_LaTeX_Template)
 
