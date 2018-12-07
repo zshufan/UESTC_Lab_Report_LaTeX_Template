@@ -62,10 +62,11 @@ Further experiments on Mac and Linux are expected.
 
 ## Preview
 -------------
-<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/article/2018/1206/8b480bc6d043f57.png)
-<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/08fc81f87455bec.png)
-<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/637eee3b58b5716.png)
-<img src="http:..." width = "100" height = "100" div align=center />![](http://pics.latexstudio.net/thumb/article/2018/1206/02c135a2100b4c4.png)
+
+<img src="https://user-images.githubusercontent.com/28619915/49622954-a6ccfd80-fa06-11e8-9753-6181af3ac720.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49622955-a7fe2a80-fa06-11e8-9d90-8959be3100a3.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49622957-a92f5780-fa06-11e8-95a0-1494d893f052.png" width = 100% height = 100% div align=center />
+<img src="https://user-images.githubusercontent.com/28619915/49622961-aa608480-fa06-11e8-961e-382ddb7354d7.png" width = 100% height = 100% div align=center />
 
     
 > About me, subscribe my  
