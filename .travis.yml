@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-- docker run --rm -v $(pwd)/autobuild:/src ubuntu:bionic bash /src/autobuild/build.sh
+- docker run --rm -v $(pwd)/autobuild:/root/src ubuntu:bionic bash /root/src/autobuild/build.sh
