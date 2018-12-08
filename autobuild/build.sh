@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# install texlive and dependencies
 apt-get update && \
 apt-get install -y --no-install-recommends \
     texlive-latex-extra \
@@ -11,7 +10,7 @@ apt-get install -y --no-install-recommends \
     lmodern \
     wget \
     xzdec
-    
+
 # intsall latex packages
 tlmgr init-usertree
 tlmgr install indentfirst bm fancyhdr\
