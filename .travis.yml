@@ -4,5 +4,4 @@ services:
   - docker
 
 script:
-- docker run --rm -v $(pwd)/lab\ report(zh-cn):/lab\ report(zh-cn) ubuntu:xenial bash /autobuild/build.sh
-- mv report/lab_report(zh_cn).pdf lab_report(zh_cn).pdf
+- docker run --rm ubuntu:xenial bash /autobuild/build.sh
