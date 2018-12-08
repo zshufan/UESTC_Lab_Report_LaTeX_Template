@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-- docker run --rm -v $(pwd)/lab_report(zh-cn):/lab_report(zh-cn) ubuntu:bionic bash /lab_report(zh-cn)/build.sh
+- docker run --rm -v $(pwd)/lab_report\(zh-cn\):/lab_report\(zh-cn\) ubuntu:bionic bash /lab_report\(zh-cn\)/build.sh

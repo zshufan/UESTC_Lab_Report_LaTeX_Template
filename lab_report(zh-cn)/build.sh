@@ -21,9 +21,8 @@ tlmgr install indentfirst bm fancyhdr\
     booktabs listings thumbpdf xcolor  \
     algorithm algorithmicx algpseudocode;
 
-cd lab_report(zh-cn)/
-ls -l
+cd lab_report\(zh-cn\)/
 # run xelatex
-xelatex lab_report(zh_cn).tex -interaction=nonstopmode
+xelatex lab_report\(zh_cn\).tex -interaction=nonstopmode
 
 rm *.aux *.log *.out
