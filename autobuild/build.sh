@@ -1,14 +1,13 @@
 #!/bin/bash
 
-# install texlive 2015 and dependencies
+# install texlive and dependencies
 apt-get update && \
 apt-get install -y --no-install-recommends \
     texlive-latex-extra \
-    texlive-latex-recommended \
-    texlive-fonts-extra \
-    texlive-fonts-recommended \
     texlive-lang-chinese \
     texlive-formats-extra \
+    texlive-fonts-recommended \
+    fonts-font-awesome \
     lmodern \
     wget \
     xzdec
