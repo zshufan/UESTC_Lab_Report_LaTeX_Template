@@ -6,6 +6,7 @@ apt-get install -y --no-install-recommends \
     texlive-lang-chinese \
     texlive-formats-extra \
     texlive-fonts-recommended \
+    texlive-science \
     fonts-font-awesome \
     lmodern \
     wget \
