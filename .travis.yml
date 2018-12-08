@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-- docker run --rm ubuntu:xenial bash /autobuild/build.sh
+- docker run --rm ubuntu:xenial bash ./autobuild/build.sh
