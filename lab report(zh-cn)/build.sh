@@ -23,8 +23,6 @@ tlmgr install indentfirst bm fancyhdr\
 
 cd autobuild/
 ls -l
-cd "lab report(zh-cn)/"
-ls -l
 # run xelatex
 xelatex lab_report(zh_cn).tex -interaction=nonstopmode
 
