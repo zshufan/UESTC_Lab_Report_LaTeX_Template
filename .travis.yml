@@ -4,5 +4,4 @@ services:
   - docker
 
 script:
-- docker run --rm -v $(pwd)/autobuild:/autobuild ubuntu:bionic bash /autobuild/build.sh
-- mv autobuild/lab_report(zh_cn).pdf lab_report(zh_cn).pdf
+- docker run --rm -v $(pwd)/autobuild:/src ubuntu:bionic bash /src/autobuild/build.sh
