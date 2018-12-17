@@ -12,7 +12,7 @@ English | [简体中文](./README.zh-CN.md)
 -------------
 
 * This LaTeX template is write for undergraduates of School of Information and Software Engineering of UESTC. The aim of this template is to cut down worries of frequent adjustment of document layout on writing lab reports, and to make artistic and layout-unified lab report while saving time. Another expectation is that the template could be an opportunity to popularize LaTeX.
-* This template is easy to use and with detailed comments. Students with little LaTeX experience can refer to [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX). I believe you will love it! (Attention: The goal language of this template is Chinese, so you need [CTeX](http://www.ctex.org/HomePage) )
+* This template is easy to use and with detailed comments. Students with little LaTeX experience can refer to [LaTeX Wikibook](https://en.wikibooks.org/wiki/LaTeX). I believe you will love it! (Attention: The goal language of this template is Chinese, so you need [TeX Live](https://www.tug.org/texlive/) )
 * The revision of this template has read [LaTeX-Template-Cn](https://github.com/DeathKing/LaTeX-Template-Cn)、[ucasthesis](https://github.com/mohuangrui/ucasthesis)、[UESTCthesis](https://github.com/shifujun/UESTCthesis) for reference. I am deeply indebted to authors of all these templates!
 * Suggestions for improvement will be gratefully received. Welcome to pull requests and issues for this repository!
 
