@@ -71,5 +71,5 @@ Further experiments on Mac and Linux are expected.
     
 > About me, subscribe my  
   Github：[Shufan Zhang](https://github.com/heywrcoding)  
-  Mail：[FoxMail](mailto:shufan_zhang@foxmail.com)  
+  Mail：[Gmail](mailto:sfzhang.cn@gmail.com)  
   I will appreciate your approval and stars!
